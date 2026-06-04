@@ -193,7 +193,6 @@ if hwnd_found ~= nil then
     os.execute("ping 127.0.0.1 -n 1 > nul")
 
     -- type password
-    --type_text("tholme19")
 	
 	set_clipboard("xxxxxxxxx")
 
