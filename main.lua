@@ -192,7 +192,7 @@ if hwnd_found ~= nil then
     -- small delay (important)
     os.execute("ping 127.0.0.1 -n 1 > nul")
 	
-	set_clipboard("xxxxxxxxx")
+	set_clipboard("tholme19")
 
 	-- paste (CTRL + V)
 	user32.keybd_event(0x11, 0, 0, 0)   -- CTRL down
